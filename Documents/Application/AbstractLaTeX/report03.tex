@@ -1,0 +1,579 @@
+% 
+% SEGUNDO FORO INTERNACIONAL DE TALENTO MEXICANO
+% INNOVATION MATCH MX 2016-2017
+% Que se llevará a cabo los días: 31 Mayo, 1 y 2 de Junio 2017
+% Fecha de Inicio de registro: 21 de Junio de 2016
+% Fecha límite para recepción de resúmenes y registro de ponentes: 30 de Septiembre de 2016
+% 
+% INNOVATION MATCH MX es un punto de encuentro innovador donde empresas, investigadores y
+% estudiantes pueden compartir conocimientos, experiencias y crear oportunidades de negocio con
+% base en las demandas y ofertas tecnológicas de cada uno de los participantes.
+% 
+% Este foro está dirigido a una amplia temática en innovación, siendo los sectores estratégicos:
+% 
+% Ingeniería y manufactura (Electrónica, Robótica, Mecatrónica, Automotriz,
+% Aeroespacial y Manufactura)
+% 
+% 
+% En el registro se solicitarán los datos de la persona de contacto, así como historial académico,
+% área de conocimiento, así como título y resumen del trabajo a postular
+% 
+% *****************
+% El resumen deberá contener los siguientes elementos: 
+% Propósito, 
+% Metodología, 
+% Resultados,
+% Conclusión y 
+% Aplicación Industrial o bien Oportunidad de Negocio.
+% *****************
+% 
+% 
+% 
+% Con el fin de impulsar la participación de los investigadores y estudiantes mexicanos de todo el
+% mundo, INNOVATION MATCH MX otorgará becas para viáticos y viajes a aquellos participantes que
+% lo soliciten y justifiquen la necesidad del apoyo.
+% 
+% El resumen deberá tener una extensión no mayor a las 250 palabras a espacio sencillo, Arial 12,
+% redactado en inglés y español. Es requisito indispensable presentar el título y resumen en ambos
+% idiomas.
+% 
+% 
+
+% \documentclass[10pt,journal,compsoc]{IEEEtran}
+\documentclass[12pt,journal,onecolumn,compsoc]{IEEEtran}
+
+
+ 
+ 
+
+
+\usepackage[switch]{lineno}
+% \linenumbers
+% \leftlinenumbers
+% % % http://tex.stackexchange.com/questions/20368/lineno-for-2-column
+
+
+
+
+
+
+% *** CITATION PACKAGES ***
+%
+\ifCLASSOPTIONcompsoc
+  % IEEE Computer Society needs nocompress option
+  % requires cite.sty v4.0 or later (November 2003)
+  \usepackage[nocompress]{cite}
+\else
+  % normal IEEE
+  \usepackage{cite}
+\fi
+
+
+
+
+% *** GRAPHICS RELATED PACKAGES ***
+%
+\ifCLASSINFOpdf
+  \usepackage[pdftex]{graphicx}
+   \graphicspath{{figures/}}
+
+\else
+
+\fi
+
+
+
+
+
+
+% *** MATH PACKAGES ***
+%
+\usepackage[cmex10]{amsmath}
+\usepackage{amsfonts} % to use $\mathbb{Z}$
+
+
+% *** SPECIALIZED LIST PACKAGES ***
+
+\usepackage{algorithm}
+\usepackage{algorithmic}
+
+
+
+
+
+% *** PDF, URL AND HYPERLINK PACKAGES ***
+%
+\usepackage{url}
+
+
+
+
+% correct bad hyphenation here
+\hyphenation{op-tical net-works semi-conduc-tor  Birmingham}
+
+
+\begin{document}
+
+
+\title{
+Towards the improvement of Healthy Ageing with Humanoid Robots
+}
+
+
+% \title{
+% Improving Healthy Ageing with \\ Humanoid Robots
+% }
+
+% \title{
+% Using NAO Robot to improve \\  the quality of life in the elderly
+% }
+
+
+
+% “IMPROVING THE QUALITY OF LIFE IN THE ELDERLY USING ROBOTIC 
+% ASSISTIVE TECHNOLOGY: BENEFITS, LIMITATIONS, AND CHALLENGES”
+
+
+
+\author{
+ 	Miguel~Xochicale,~\IEEEmembership{Doctoral~Researcher}
+%          Chris~Baber,~\IEEEmembership{Lead~Supervisor;}
+%          ~Martin~Russell,~\IEEEmembership{Co-Supervisor;} \\
+%          and~?~?,~\IEEEmembership{Academic~Advisor.}
+         % <-this % stops a space
+
+ \IEEEcompsocitemizethanks{\IEEEcompsocthanksitem 
+ M. Xochicale is with the School of Electronic, Electrical and Systems Engineering, 
+ The University of Birmingham, U.K. \protect\\
+ % note need leading \protect in front of \\ to get a newline within \thanks as
+ % \\ is fragile and will error, could use \hfil\break instead.
+ E-mail: see http://mxochicale.github.io/
+ }% <-this 
+% stops an unwanted space
+% \thanks{Manuscript received August 15, 2016; revised Month Day, 2016.}
+}
+
+
+
+% The paper headers
+\markboth{Abstract Submission to Innovation Match Mx 2016-2017}%
+{Shell \MakeLowercase{\textit{et al.}}: Bare Demo of IEEEtran.cls for Computer 
+Society Journals}
+% The only time the second header will appear is for the odd numbered pages
+% after the title page when using the twoside option.
+% 
+
+
+\IEEEtitleabstractindextext{%
+
+
+ 
+% \begin{abstract}
+% ...
+% \end{abstract}
+
+
+% Note that keywords are not normally used for peerreview papers.
+\begin{IEEEkeywords}
+Engineering; Robotics; Health Sciences
+\end{IEEEkeywords}
+
+
+}
+
+
+
+% make the title area
+\maketitle
+
+
+\IEEEdisplaynontitleabstractindextext
+
+\IEEEpeerreviewmaketitle
+
+
+
+
+
+% 
+% Message: 8
+% Date: Tue, 13 Sep 2016 06:49:24 -0700
+% From: ?lvaro Castro-Gonz?lez <acgonzal@ing.uc3m.es>
+% To: <robotics-worldwide@usc.edu>
+% Subject: [robotics-worldwide] [meetings] ICSR2016 - Workshop "Using
+%         social robots to improve the quality of life in the elderly" - 2nd
+%         call for papers
+% Message-ID: <1473774564988-5714646.post@n5.nabble.com>
+% Content-Type: text/plain; charset="UTF-8"
+% 
+% 2nd Call For Papers
+% Deadline: October 1st, 2016
+% 
+% **********************************************************************
+% 
+% Workshop "Using social robots to improve the quality of life in the elderly"
+% 
+% at the 8th International Conference on Social Robotics (ICSR 2016)
+% 
+%                    - November 1st 2016 -
+%                      Kansas City (USA)
+% 
+%              https://urldefense.proofpoint.com/v2/url?u=https-3A__elderlyicsr2016.wordpress.com_&d=DQIFaQ&c=clK7kQUTWtAVEOVIgvi0NU5BOUHhpN0H8p7CSfnc_gI&r=0w3solp5fswiyWF2RL6rSs8MCeFamFEPafDTOhgTfYI&m=6wYWqBSLVW1BZejNWDrhz9-1qWSmqsJllRIM4aTqPiM&s=7Ox_lGpMvU10-8EojrjjA1aU8PEvlh5PBW4CY2lxsNY&e=
+% 
+% The aim of this workshop is to widen the debate on how best to ensure that
+% social robotics fully enters the mainstream of wellbeing, health and social
+% care service provision for the rapidly rising proportion of the elderly in
+% the developed and developing countries.
+% 
+% Several social and demographic indicators point to a society where the
+% population over 65 will double, and those over 80 will triple in few years.
+% This situation will lead us towards new social and economic problems. Social
+% Robots represent a possibility to face some of these new problems. For
+% example, Social Robots will help to decrease the economic burden to families
+% and governmental healthcare systems. Moreover, they can relieve the lack of
+% qualified personnel to take care of elderly people and improve their quality
+% of life.
+% 
+% This half-day workshop will seek to foster the exchange of ideas,
+% experiences, and problems that researches have encountered due to the
+% singular interaction between Social Robots and elders; for example, the
+% acceptance of social robots by the elderly, the concerns that arise, the
+% inherent lifestyle changes involved, and inevitable interaction issues that
+% occur.
+% 
+% During the workshop, prominent researchers that are investigating the
+% application of social robotics to an ageing population will share their
+% experiences and discuss about its application on several areas, such as
+% entertainment, assistance, and surveillance, among others.
+% 
+% **** Submission information ****
+% 
+% We invite submission of short papers (between 2 and 6 pages). Please use the
+% ICSR conference style when preparing your paper.
+% 
+% Accepted papers will be presented in the poster session during the workshop.
+% Relevant contributions could be invited to be presented in regular sessions.
+% 
+% This call is open to anyone interested in the application of social robotics
+% to an ageing population. Roboticists, philosophers, psychologists,
+% physicians, and researchers from related disciplines are welcome to
+% participate.
+% 
+% Please send your papers to acgonzal[at]ing.uc3m.es and
+% mmalfaz[at]ing.uc3m.es until October 1st, 2016
+% 
+% **** Topics ****
+% 
+% Topics of Interest include, but are not limited to:
+%         Robotic applications for elderly
+%         Evaluation of experiences
+%         Long term interaction studies
+%         Social acceptance and impact in the elders
+%         Social assistive robotics and the caregivers, familiars, and medical staff
+%         Human-robot social interactions
+%         Robot adaptation to user
+%         Integrating robotics in the ?TeleCare? domain
+%         Social robots for elders in smart home environments
+%         Assimilating a robot into family lifestyle
+%         Safety concepts, standards and constraints
+%         Ethical and moral issues
+% 
+% ****** Important Dates *******
+% 
+% - Submission deadline: October 1st, 2016
+% - Workshop: November 1st, 2016
+% 
+% ***** Workshop Website ******
+% 
+% https://urldefense.proofpoint.com/v2/url?u=https-3A__elderlyicsr2016.wordpress.com_&d=DQIFaQ&c=clK7kQUTWtAVEOVIgvi0NU5BOUHhpN0H8p7CSfnc_gI&r=0w3solp5fswiyWF2RL6rSs8MCeFamFEPafDTOhgTfYI&m=6wYWqBSLVW1BZejNWDrhz9-1qWSmqsJllRIM4aTqPiM&s=7Ox_lGpMvU10-8EojrjjA1aU8PEvlh5PBW4CY2lxsNY&e=
+% 
+% **** Chairs ****
+% 
+% Miguel A. Salichs, Universidad Carlos III de Madrid (Spain)
+% Elizabeth Anne Broadbent, The University of Auckland (New Zealand)
+% Markus Vincze, Vienna University of Technology (Austria)
+% 
+% **** Invited speakers ****
+% 
+% Tamara Lorentz, University of Cincinnati, USA
+% Dimitrios Tzovaras, Centre for Research and Technology Hellas - Information
+% Technologies Institute (CERTH-ITI), Greece
+% Jenay Beer, University of South Carolina, USA
+% Selma Sabanovic, Indiana University, USA
+% Laurel Riek, University of Notre Dame, USA
+% Miguel A. Salichs, Universidad Carlos III de Madrid, Spain
+% 
+% **** Organizers ****
+% 
+% Alvaro Castro-Gonzalez, Universidad Carlos III de Madrid, Spain,
+% acgonzal[at]ing.uc3m.es
+% Mar?a Malfaz, Universidad Carlos III de Madrid, Spain,
+% mmalfaz[at]ing.uc3m.es
+% Esther Salichs, Universidad Carlos III de Madrid, Spain,
+% esalichs[at]ing.uc3m.es
+% 
+% 
+% 
+% 
+% -----
+% ?lvaro Castro Gonz?lez
+% PhD - Assistant Professor
+% Department of Systems Engineering and Automation
+% Carlos III University of Madrid
+% Avda. Universidad 30
+% 28911 Legan?s, Madrid
+% Espa?a - SPAIN
+% 
+% E-mail: acgonzal@ing.uc3m.es
+% URL: https://urldefense.proofpoint.com/v2/url?u=http-3A__roboticslab.uc3m.es&d=DQIFaQ&c=clK7kQUTWtAVEOVIgvi0NU5BOUHhpN0H8p7CSfnc_gI&r=0w3solp5fswiyWF2RL6rSs8MCeFamFEPafDTOhgTfYI&m=6wYWqBSLVW1BZejNWDrhz9-1qWSmqsJllRIM4aTqPiM&s=AIoZlWuiXrMJkp__e0JLwK0urV-zoseL7N-MhWDwZ0M&e=
+% Universidad Carlos III de Madrid
+% --
+% View this message in context: https://urldefense.proofpoint.com/v2/url?u=http-3A__robotics-2Dworldwide.1046236.n5.nabble.com_robotics-2Dworldwide-2Dmeetings-2DICSR2016-2DWorkshop-2DUsing-2Dsocial-2Drobots-2Dto-2Dimprove-2Dthe-2Dquality-2Dof-2Dlife-2Din-2Ds-2Dtp5714646.html&d=DQIFaQ&c=clK7kQUTWtAVEOVIgvi0NU5BOUHhpN0H8p7CSfnc_gI&r=0w3solp5fswiyWF2RL6rSs8MCeFamFEPafDTOhgTfYI&m=6wYWqBSLVW1BZejNWDrhz9-1qWSmqsJllRIM4aTqPiM&s=SxY8NlRRj3wNKE8ZbpQa1ca6Ayu-iBX2y9MCRIfBgPE&e=
+% Sent from the robotics-worldwide mailing list archive at Nabble.com.
+% 
+% 
+% 
+% 
+% Centre for Robotics and Neural Systems
+% Plymouth University, UK
+% 
+% PhD Studentship on Human Robot Interaction
+% 
+% A 3-year PhD studentship is available as part of the new H2020 collaborative project ?MoveCare: Multiple-actors Virtual Empathic Caregiver for the Elder?. The candidate will carry out interdisciplinary research on human robot interaction (HRI) for the design of a multimodal robot interface for the elderly and the testing during HRI experiments. The student will be supervised by Professor Ray Jones (School of Nursing and Midwifery) and Professor Angelo Cangelosi (School of Computing, Electronics and Mathematics).
+% 
+% The studentship is supported for 3 years and includes full Home/EU tuition fees plus a stipend of ?14,057 per annum. The studentship will only fully fund those applicants who are eligible for Home/EU fees with relevant qualifications. Applicants normally required to cover overseas fees will have to cover the difference between the Home/EU and the overseas tuition fee rates (approximately ?11,040 per annum).
+% For further information contact Professor Ray Jones (ray.jones@plymouth.ac.uk)<mailto:ray.jones@plymouth.ac.uk)> and Professor Angelo Cangelosi (acangelosi@plymouth.ac.uk)<mailto:acangelosi@plymouth.ac.uk)>. Background information on the supervisors? research profiles can be found on Plymouth University website.
+% Eligibility?Applicants must have a first degree in computer science, robotics, cognitive science or related discipline. A Masters level degree in the same disciplines is a desirable criterion. Good programming skills is also an essential requirement. Applicants with knowledge, and/or previous research experience, on human-robot interaction or experiments for the elderly are particularly encouraged to apply.
+% **********************************************
+% 
+% http://business.financialpost.com/executive/smart-shift/are-western-nursing-homes-ready-for-japans-humanoid-robots
+% 
+% For the next 20 minutes, the robot guides the crowd through a variety of physical and mental exercises. It shakes its arms and instructs everyone to do the same — before launching into a series of quizzes designed to stump the audience.
+% 
+% 
+% Nursing homes have been the epicentre of the robotics boom in Japan. There is a chronic worker shortage in the industry — The Health, Labor and Welfare Ministry of Japan estimates the country will need 2.53 million care workers by 2025, but it expects that the actual availability of workers will fall short by 377,000.
+% 
+% 
+% Kaoru Inoue, associate professor at the Tokyo Metropolitan University, has researched how PALRO can assist the elderly for the past five years, after she came across the robot at a technology exhibition.
+% 
+% 
+% http://link.springer.com/chapter/10.1007%2F978-3-319-08596-8_70
+% 
+% https://www.researchgate.net/researcher/70408778_Kaoru_Inoue
+
+
+
+
+
+
+
+
+
+\IEEEraisesectionheading{\section*{Abstract}\label{sec:introduction}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%  316 words 1,970 characters   [https://wordcounter.net/]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+ 
+In 2015, 125 million people worldwide were aged 80 years or older.
+By 2050, it is predicted that 350 million of older people will live in low- and middle-income countries \cite{AH16}. 
+%  http://www.who.int/mediacentre/factsheets/fs404/en/
+According to the The World Health Organization
+two  key environmental factors to have a Healthy Ageing are long-term care and care givers.
+% Global strategy and action plan on ageing and health (2016- 2020)
+% http://www.who.int/ageing/GSAP-Summary-EN.pdf?ua=1
+Similarly, 
+there are a wide range of challenges in Healthy Ageing
+such as the improvement of methodologies for measurement, monitoring and understanding ageing problems.
+% However, there are still many challenges on Healthy Ageing
+% in order to have 
+% better understanding of the elderly in real life situations
+% in order to create the appropriate methods for intervertion and help of the elder.
+
+
+% after high blood pressure (12.8\%) , tobacco use (8.7\%), high blood glucose (5.8\%) and 
+% right before overweight and obesity (4.8\%) \cite{GHR09}.
+% Physical inactivity is estimated to cause around 
+% 21–25\% of breast and colon cancer burden, 27% of 
+% diabetes and about 30\% of ischaemic heart disease 
+% burden.
+%  World Health Organization. Global health risks: mortality and burden of diseases attributable to selected major
+%  risks. WHO, Geneva (2009)
+% % http://www.who.int/healthinfo/global_burden_disease/global_health_ris ks/en/index.html.
+% % http://www.who.int/healthinfo/global_burden_disease/GlobalHealthRisks_report_full.pdf
+% % ttp://www.who.int/healthinfo/global_burden_disease/global_health_risks/en/
+% % 
+
+% The predictions for 2050 of elderly people will hist almost 
+% one million people in Japan, similarly the projection for elderly people
+% in 2050 will be around  19 million.
+I am therefore proposing the use of Humanoid Robots to 
+create methodologies for measurement, monitoring and understanding the physical activity of the elderly.
+Elderly care using Robots has been mainly well developed in Japan. For instance,
+(a) Ri-Man can see, hear and assess a person's health; (b) Paro therapy bot help people with dementia; and 
+(c) Palro humanoid robot can play games and dance to mention but a few.
+% https://www.theguardian.com/society/2014/jul/08/paro-robot-seal-dementia-patients-nhs-japan
+Similarly, humanoid robots such as Pepper and NAO have been used to understand the emotions of people,
+to play games with humans or play football between NAO robots.
+Additionally, NAO has been used to teach diabetic children about various aspects of their condition.
+NAO has also been used for arm rehabilitation therapy for children.
+% to which children found the Robot 
+% interaction activity as one which is more engaging 
+% and increase the motivation of children to perform an adequate rehabilitation therapy.
+% For this work, I believe that it is required to create sufficient physical activity for the elderly
+% given that insufficient physical activity is the fourth leading global risk for mortality in the world with 5.5\%  
+% \cite{GHR09}. 
+However, there is little research with regard to the encouragement of the elderly to 
+perform appropriatelly physical activity.
+% in the right way.
+For this work, I am therefore planning to present preliminary outcomes 
+of human-robot interaction scenarios of entertainment and rehabilitation in which 
+NAO will behave as a instructor and participants will use on-body worn sensors 
+to analyse the quality of movement. 
+% I am going to present the advantages and disadvantages of 
+Methodologies for data processing and the measure of the quality of activities 
+within and across participants using on-body inertial sensors
+will be presented.
+
+% I am going to present a literature review of robots for elderly care, areas of care, etc.
+Finally, I will pointed out to the Mexican community that 
+Humanoids Robots and sensors attached to the body 
+% can provide services to the elderly by playing games and dancing with them which 
+will help us to measure, to analise, to understand and to improve the health of the elderly.
+
+
+% http://tribune.com.pk/story/1138709/charlie-robot-new-best-buddy-kids-diabetes/
+% Towards Long-Term Social Child-Robot Interaction:
+% Using  Multi-Activity  Switching  to  Engage  Young
+% Users
+% Alexandre Coninx
+
+
+
+% * JAPAN
+% t's expected to hit almost 1 million by 2050. 
+% https://www.cnet.com/news/fitness-bot-whips-japanese-seniors-into-shape/
+
+% * UK
+% 10 million people in the UK are over 65 years old.  
+% The latest projections are for 5½ million more elderly people in 
+% 20 years time and the number will have nearly doubled to around 19 million by 2050.
+% http://www.parliament.uk/business/publications/research/key-issues-for-the-new-parliament/value-for-money-in-public-services/the-ageing-population/
+
+
+
+
+
+% \cite{Lorenzi2016}
+
+
+
+
+
+
+
+% 
+% % use section* for acknowledgment
+% \ifCLASSOPTIONcompsoc
+%   % The Computer Society usually uses the plural form
+%   \section*{Acknowledgments}
+% \else
+%   % regular IEEE prefers the singular form
+%   \section*{Acknowledgment}
+% \fi
+% 
+% Miguel Xochicale gratefully acknowledges the studentship from 
+% the National Council for Science and Technology (CONACyT) Mexico
+% to pursue his postgraduate studies at University of Birmingham U.K.
+% 
+% \ifCLASSOPTIONcaptionsoff
+%   \newpage
+% \fi
+
+
+
+% trigger a \newpage just before the given reference
+% number - used to balance the columns on the last page
+% adjust value as needed - may need to be readjusted if
+% the document is modified later
+%\IEEEtriggeratref{8}
+% The "triggered" command can be changed if desired:
+%\IEEEtriggercmd{\enlargethispage{-5in}}
+
+% references section
+
+% can use a bibliography generated by BibTeX as a .bbl file
+% BibTeX documentation can be easily obtained at:
+% http://www.ctan.org/tex-archive/biblio/bibtex/contrib/doc/
+% The IEEEtran BibTeX style support page is at:
+% http://www.michaelshell.org/tex/ieeetran/bibtex/
+%\bibliographystyle{IEEEtran}
+% argument is your BibTeX string definitions and bibliography database(s)
+%\bibliography{IEEEabrv,../bib/paper}
+%
+% <OR> manually copy in the resultant .bbl file
+% set second argument of \begin to the number of references
+% (used to reserve space for the reference number labels box)
+% \begin{thebibliography}{1}
+% 
+% \bibitem{IEEEhowto:kopka}
+% H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus
+%   0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
+% 
+% \end{thebibliography}
+
+% \nocite{*}
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+
+% biography section
+% 
+% If you have an EPS/PDF photo (graphicx package needed) extra braces are
+% needed around the contents of the optional argument to biography to prevent
+% the LaTeX parser from getting confused when it sees the complicated
+% \includegraphics command within an optional argument. (You could create
+% your own custom macro containing the \includegraphics command to make things
+% simpler here.)
+%\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{mshell}}]{Michael Shell}
+% or if you just want to reserve a space for a photo:
+
+% \begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{mxochicale38x44.pdf}}]{name}
+
+% \begin{IEEEbiography}{Miguel Perez-Xochicale}
+% ........................
+% \end{IEEEbiography}
+
+
+
+% % if you will not have a photo at all:
+% \begin{IEEEbiographynophoto}{John Doe}
+% Biography text here.
+% \end{IEEEbiographynophoto}
+% 
+% % insert where needed to balance the two columns on the last page with
+% % biographies
+% %\newpage
+% 
+% \begin{IEEEbiographynophoto}{Jane Doe}
+% Biography text here.
+% \end{IEEEbiographynophoto}
+
+% You can push biographies down or up by placing
+% a \vfill before or after them. The appropriate
+% use of \vfill depends on what kind of text is
+% on the last page and whether or not the columns
+% are being equalized.
+
+%\vfill
+
+% Can be used to pull up biographies so that the bottom of the last one
+% is flush with the other column.
+%\enlargethispage{-5in}
+
+
+
+% that's all folks
+\end{document}

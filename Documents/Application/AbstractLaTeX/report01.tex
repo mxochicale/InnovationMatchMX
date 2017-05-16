@@ -1,0 +1,400 @@
+% 
+% SEGUNDO FORO INTERNACIONAL DE TALENTO MEXICANO
+% INNOVATION MATCH MX 2016-2017
+% Que se llevará a cabo los días: 31 Mayo, 1 y 2 de Junio 2017
+% Fecha de Inicio de registro: 21 de Junio de 2016
+% Fecha límite para recepción de resúmenes y registro de ponentes: 30 de Septiembre de 2016
+% 
+% INNOVATION MATCH MX es un punto de encuentro innovador donde empresas, investigadores y
+% estudiantes pueden compartir conocimientos, experiencias y crear oportunidades de negocio con
+% base en las demandas y ofertas tecnológicas de cada uno de los participantes.
+% 
+% Este foro está dirigido a una amplia temática en innovación, siendo los sectores estratégicos:
+% 
+% Ingeniería y manufactura (Electrónica, Robótica, Mecatrónica, Automotriz,
+% Aeroespacial y Manufactura)
+% 
+% 
+% En el registro se solicitarán los datos de la persona de contacto, así como historial académico,
+% área de conocimiento, así como título y resumen del trabajo a postular
+% 
+% *****************
+% El resumen deberá contener los siguientes elementos: 
+% Propósito, 
+% Metodología, 
+% Resultados,
+% Conclusión y 
+% Aplicación Industrial o bien Oportunidad de Negocio.
+% *****************
+% 
+% 
+% 
+% Con el fin de impulsar la participación de los investigadores y estudiantes mexicanos de todo el
+% mundo, INNOVATION MATCH MX otorgará becas para viáticos y viajes a aquellos participantes que
+% lo soliciten y justifiquen la necesidad del apoyo.
+% 
+% El resumen deberá tener una extensión no mayor a las 250 palabras a espacio sencillo, Arial 12,
+% redactado en inglés y español. Es requisito indispensable presentar el título y resumen en ambos
+% idiomas.
+% 
+% 
+
+% \documentclass[10pt,journal,compsoc]{IEEEtran}
+\documentclass[12pt,journal,onecolumn,compsoc]{IEEEtran}
+
+
+ 
+ 
+
+
+\usepackage[switch]{lineno}
+% \linenumbers
+% \leftlinenumbers
+% % % http://tex.stackexchange.com/questions/20368/lineno-for-2-column
+
+
+
+
+
+
+% *** CITATION PACKAGES ***
+%
+\ifCLASSOPTIONcompsoc
+  % IEEE Computer Society needs nocompress option
+  % requires cite.sty v4.0 or later (November 2003)
+  \usepackage[nocompress]{cite}
+\else
+  % normal IEEE
+  \usepackage{cite}
+\fi
+
+
+
+
+% *** GRAPHICS RELATED PACKAGES ***
+%
+\ifCLASSINFOpdf
+  \usepackage[pdftex]{graphicx}
+   \graphicspath{{figures/}}
+
+\else
+
+\fi
+
+
+
+
+
+
+% *** MATH PACKAGES ***
+%
+\usepackage[cmex10]{amsmath}
+\usepackage{amsfonts} % to use $\mathbb{Z}$
+
+
+% *** SPECIALIZED LIST PACKAGES ***
+
+\usepackage{algorithm}
+\usepackage{algorithmic}
+
+
+
+
+
+% *** PDF, URL AND HYPERLINK PACKAGES ***
+%
+\usepackage{url}
+
+
+
+
+% correct bad hyphenation here
+\hyphenation{op-tical net-works semi-conduc-tor  Birmingham}
+
+
+\begin{document}
+
+
+\title{
+Towards the improvement of Healthy Ageing with Humanoid Robots
+}
+
+
+% \title{
+% Improving Healthy Ageing with \\ Humanoid Robots
+% }
+
+% \title{
+% Using NAO Robot to improve \\  the quality of life in the elderly
+% }
+
+
+
+% “IMPROVING THE QUALITY OF LIFE IN THE ELDERLY USING ROBOTIC 
+% ASSISTIVE TECHNOLOGY: BENEFITS, LIMITATIONS, AND CHALLENGES”
+
+
+
+\author{
+ 	Miguel~Xochicale,~\IEEEmembership{Doctoral~Researcher}
+%          Chris~Baber,~\IEEEmembership{Lead~Supervisor;}
+%          ~Martin~Russell,~\IEEEmembership{Co-Supervisor;} \\
+%          and~?~?,~\IEEEmembership{Academic~Advisor.}
+         % <-this % stops a space
+
+ \IEEEcompsocitemizethanks{\IEEEcompsocthanksitem 
+ M. Xochicale is with the School of Electronic, Electrical and Systems Engineering, 
+ The University of Birmingham, U.K. \protect\\
+ % note need leading \protect in front of \\ to get a newline within \thanks as
+ % \\ is fragile and will error, could use \hfil\break instead.
+ E-mail: see http://mxochicale.github.io/
+ }% <-this 
+% stops an unwanted space
+% \thanks{Manuscript received August 15, 2016; revised Month Day, 2016.}
+}
+
+
+
+% The paper headers
+\markboth{Abstract Submission to Innovation Match Mx 2016-2017}%
+{Shell \MakeLowercase{\textit{et al.}}: Bare Demo of IEEEtran.cls for Computer 
+Society Journals}
+% The only time the second header will appear is for the odd numbered pages
+% after the title page when using the twoside option.
+% 
+
+
+\IEEEtitleabstractindextext{%
+
+
+ 
+% \begin{abstract}
+% ...
+% \end{abstract}
+
+
+% Note that keywords are not normally used for peerreview papers.
+\begin{IEEEkeywords}
+Engineering; Robotics; Health Sciences
+\end{IEEEkeywords}
+
+
+}
+
+
+
+% make the title area
+\maketitle
+
+
+\IEEEdisplaynontitleabstractindextext
+
+\IEEEpeerreviewmaketitle
+
+
+
+
+
+\IEEEraisesectionheading{\section*{Abstract}\label{sec:introduction}}
+
+
+In 2015, it was estimated that 125 million people worldwide were aged 80 years or older.
+By 2050, it is predicted that 350 million of older people will live in low- and middle-income countries \cite{AH16}. 
+%  http://www.who.int/mediacentre/factsheets/fs404/en/
+It is worthwhile to mention that some of the general key environmental factors to have a healthy ageing are
+long-term care, good relationships with friends, family and care givers.
+% Global strategy and action plan on ageing and health (2016- 2020)
+% http://www.who.int/ageing/GSAP-Summary-EN.pdf?ua=1
+To accomplish the previous factors, 
+the World Health Organization mentions 
+that one of the main challenges to create a Healthy Ageing
+is the  improvement of methodologies for measurement, monitoring and understanding  
+many ageing problems.
+% However, there are still many challenges on Healthy Ageing
+% in order to have 
+% better understanding of the elderly in real life situations
+% in order to create the appropriate methods for intervertion and help of the elder.
+
+
+% after high blood pressure (12.8\%) , tobacco use (8.7\%), high blood glucose (5.8\%) and 
+% right before overweight and obesity (4.8\%) \cite{GHR09}.
+% Physical inactivity is estimated to cause around 
+% 21–25\% of breast and colon cancer burden, 27% of 
+% diabetes and about 30\% of ischaemic heart disease 
+% burden.
+%  World Health Organization. Global health risks: mortality and burden of diseases attributable to selected major
+%  risks. WHO, Geneva (2009)
+% % http://www.who.int/healthinfo/global_burden_disease/global_health_ris ks/en/index.html.
+% % http://www.who.int/healthinfo/global_burden_disease/GlobalHealthRisks_report_full.pdf
+% % ttp://www.who.int/healthinfo/global_burden_disease/global_health_risks/en/
+% % 
+
+% The predictions for 2050 of elderly people will hist almost 
+% one million people in Japan, similarly the projection for elderly people
+% in 2050 will be around  19 million.
+I am therefore proposing the use of Humanoid Robots to have a Healthy Ageing and to encourage the elderly
+to have the proper amount of physical activity. 
+Elderly care using Robots has been well developed, mainly, in Japan. For instance,
+(a) Ri-Man can see, hear and assess a person's health; (b) Paro therapy bot help people with dementia; 
+(c) Palro humanoid robot can play games and dance, to mention but a few.
+Similarly, humanoid robots such as Pepper and NAO have been used to understand the emotions of people,
+to play football or to play games with humans. In the case of health applications, 
+NAO has been used to teach diabetic children about various aspects their condition.
+Also, NAO has been used for arm rehabilitation therapy for children for which children found the Robot 
+interaction activity as one which is more engaging 
+and increase the motivation of children to perform an adequate rehabilitation therapy.
+
+
+For this work, I believe that it is required to create sufficient physical activity for the elderly
+given that insufficient physical activity is the fourth leading global risk for mortality in the world with 5.5\%  
+\cite{GHR09}. 
+
+Therefore, I am proposing the use of Robots to improve the quality of life of elderly persons
+with regard to the encouragement of performing physical activity.
+I am planning to present preliminary outcomes of the use of NAO as a instructor
+for participants using on-body worn sensors 
+to copy movements in scenarios for entertainment and rehabilitation.
+I will present the advances and disadvantages of using on-body inertial sensors,
+methodologies for data processing and the measure of the quality of activities 
+within and across participants.
+
+% I am going to present a literature review of robots for elderly care, areas of care, etc.
+
+Finally, I will pointed out to the Mexican community that 
+Humanoids Robots can provide recreation services to the elderly by playing games and dancing with them
+in order to measure, analise, understand and to improve the health of the elderly.
+
+
+% http://tribune.com.pk/story/1138709/charlie-robot-new-best-buddy-kids-diabetes/
+% Towards Long-Term Social Child-Robot Interaction:
+% Using  Multi-Activity  Switching  to  Engage  Young
+% Users
+% Alexandre Coninx
+
+
+
+% * JAPAN
+% t's expected to hit almost 1 million by 2050. 
+% https://www.cnet.com/news/fitness-bot-whips-japanese-seniors-into-shape/
+
+% * UK
+% 10 million people in the UK are over 65 years old.  
+% The latest projections are for 5½ million more elderly people in 
+% 20 years time and the number will have nearly doubled to around 19 million by 2050.
+% http://www.parliament.uk/business/publications/research/key-issues-for-the-new-parliament/value-for-money-in-public-services/the-ageing-population/
+
+
+
+
+
+% \cite{Lorenzi2016}
+
+
+
+
+
+
+
+% 
+% % use section* for acknowledgment
+% \ifCLASSOPTIONcompsoc
+%   % The Computer Society usually uses the plural form
+%   \section*{Acknowledgments}
+% \else
+%   % regular IEEE prefers the singular form
+%   \section*{Acknowledgment}
+% \fi
+% 
+% Miguel Xochicale gratefully acknowledges the studentship from 
+% the National Council for Science and Technology (CONACyT) Mexico
+% to pursue his postgraduate studies at University of Birmingham U.K.
+% 
+% \ifCLASSOPTIONcaptionsoff
+%   \newpage
+% \fi
+
+
+
+% trigger a \newpage just before the given reference
+% number - used to balance the columns on the last page
+% adjust value as needed - may need to be readjusted if
+% the document is modified later
+%\IEEEtriggeratref{8}
+% The "triggered" command can be changed if desired:
+%\IEEEtriggercmd{\enlargethispage{-5in}}
+
+% references section
+
+% can use a bibliography generated by BibTeX as a .bbl file
+% BibTeX documentation can be easily obtained at:
+% http://www.ctan.org/tex-archive/biblio/bibtex/contrib/doc/
+% The IEEEtran BibTeX style support page is at:
+% http://www.michaelshell.org/tex/ieeetran/bibtex/
+%\bibliographystyle{IEEEtran}
+% argument is your BibTeX string definitions and bibliography database(s)
+%\bibliography{IEEEabrv,../bib/paper}
+%
+% <OR> manually copy in the resultant .bbl file
+% set second argument of \begin to the number of references
+% (used to reserve space for the reference number labels box)
+% \begin{thebibliography}{1}
+% 
+% \bibitem{IEEEhowto:kopka}
+% H.~Kopka and P.~W. Daly, \emph{A Guide to \LaTeX}, 3rd~ed.\hskip 1em plus
+%   0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
+% 
+% \end{thebibliography}
+
+% \nocite{*}
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+
+% biography section
+% 
+% If you have an EPS/PDF photo (graphicx package needed) extra braces are
+% needed around the contents of the optional argument to biography to prevent
+% the LaTeX parser from getting confused when it sees the complicated
+% \includegraphics command within an optional argument. (You could create
+% your own custom macro containing the \includegraphics command to make things
+% simpler here.)
+%\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{mshell}}]{Michael Shell}
+% or if you just want to reserve a space for a photo:
+
+% \begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{mxochicale38x44.pdf}}]{name}
+
+% \begin{IEEEbiography}{Miguel Perez-Xochicale}
+% ........................
+% \end{IEEEbiography}
+
+
+
+% % if you will not have a photo at all:
+% \begin{IEEEbiographynophoto}{John Doe}
+% Biography text here.
+% \end{IEEEbiographynophoto}
+% 
+% % insert where needed to balance the two columns on the last page with
+% % biographies
+% %\newpage
+% 
+% \begin{IEEEbiographynophoto}{Jane Doe}
+% Biography text here.
+% \end{IEEEbiographynophoto}
+
+% You can push biographies down or up by placing
+% a \vfill before or after them. The appropriate
+% use of \vfill depends on what kind of text is
+% on the last page and whether or not the columns
+% are being equalized.
+
+%\vfill
+
+% Can be used to pull up biographies so that the bottom of the last one
+% is flush with the other column.
+%\enlargethispage{-5in}
+
+
+
+% that's all folks
+\end{document}

@@ -1,0 +1,12 @@
+Nombre: Miguel Xochicale
+
+Grado máximo de estudios e Institución:
+Maestria en Ciencias en Electr'onica en el 
+Instituto Nacional de Astrofísica, Óptica y Electrónica (INAOE)
+
+Experiencia:( Máximo 3 líneas)
+Miguel Xochicale se encuentra haciendo su doctorado en University of Birmingham donde investiga variabilidad
+del movimiento humano usando Nonlinear Dynamics y Machine Learning en contextos de Interaci'on Humano-Robot.
+
+Título de la conferencia:
+Hacia el Mejoramiento de un Envejecimiento Sano Usando Robots Humanoides
