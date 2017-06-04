@@ -1,8 +1,21 @@
-INNOVATION MATCH MX 
+INNOVATION MATCH MX
 ---
 
-InnovationMatchMX will be an innovative meeting point where companies, 
-researchers and students will be able to share knowledge, experiences and 
-create business opportunities based on technological offers and demands of 
-each of the participants. http://innovationmatchmx.com/language/en/
+[InnovationMatchMX](http://innovationmatchmx.com/language/en/)
+ is meeting point where Mexican companies,
+researchers and students are able to share knowledge, experiences and
+create business opportunities based on technological offers and demands of
+each of the participants.
 
+Content:
+* 2017
+  * Presentation: [Video](https://youtu.be/wNWzpdXdm5U), [Slides](https://github.com/mxochicale/InnovationMatchMX) and [Tweet](https://twitter.com/_mxochicale/status/870255529611845632)
+  * [Documents](https://github.com/mxochicale/InnovationMatchMX): Acceptance, Application, Call for works, Templates and Requirements
+
+
+
+
+
+Miguel P Xochicale   
+Doctoral Researcher in Human-Robot Interaction
+http://mxochicale.github.io/   
