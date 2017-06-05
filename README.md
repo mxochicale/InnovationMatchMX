@@ -9,13 +9,11 @@ each of the participants.
 
 Content:
 * 2017
-  * Presentation: [Video](https://youtu.be/wNWzpdXdm5U), [Slides](https://github.com/mxochicale/InnovationMatchMX) and [Tweet](https://twitter.com/_mxochicale/status/870255529611845632)
+  * Presentation: [Video](https://youtu.be/wNWzpdXdm5U), [Slides](https://github.com/mxochicale/InnovationMatchMX/blob/master/2017/presentation/IMMX-MA-0058.pdf) and [Tweet](https://twitter.com/_mxochicale/status/870255529611845632)
   * [Documents](https://github.com/mxochicale/InnovationMatchMX): Acceptance, Application, Call for works, Templates and Requirements
 
 
 
-
-
-Miguel P Xochicale   
-Doctoral Researcher in Human-Robot Interaction
-http://mxochicale.github.io/   
+Miguel P Xochicale     
+Doctoral Researcher in Human-Robot Interaction  
+http://mxochicale.github.io/     
